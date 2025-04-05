@@ -34,3 +34,5 @@ let password = "123"
 variables declared with let can be modified in the following lines of code.
 
 const userId;
+
+variables declared with const cannot be modified in the following lines of code.
