@@ -1,0 +1,10 @@
+const num = new Number(551.45654)
+
+console.log(num)
+console.log(num.toString())
+console.log(num.toFixed(4))
+console.log(Number.MAX_SAFE_INTEGER)
+console.log(Number.MIN_SAFE_INTEGER)
+console.log(Math.random())
+console.log(Math.random() * 1000)
+console.log(Math.PI)
