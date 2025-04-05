@@ -13,9 +13,9 @@ string, number, boolean, object, array.
 
 strings, numbers and boolean are easy to understand.
 
-objects are collection of key-value pairs.
+Objects are collection of key-value pairs.
 
-arrays are collection of indexed values.
+Arrays are collection of indexed values.
 
 
 JavaScript gets a lot of functionalities from the environment in which it runs. 
@@ -26,12 +26,64 @@ Consider printing on the console. We have console.log(), console.error(), consol
 
 Commenting in JS: Ctrl + / after selecting the part to be commented
 
-# let and const
-
+## let and const
+```js
 let userEmail = "jammy.123@gmail.com"
+```
 
 variables declared with let can be modified in the following lines of code.
 
+```js
 const userId;
-
+```
 variables declared with const cannot be modified in the following lines of code.
+
+## Data Types
+Primitive Types (Values are stored in stack)
+- String
+- Number
+- Boolean
+- Null 
+- Undefined 
+- Symbol
+- BigInt
+
+Examples:
+```js
+const firstName = "Jammy"
+const age = 20
+const score = 30.88
+let isLoggedIn = true
+const nodeVersion = null
+let bankbalance = undefined
+const button = Symbol("id")
+const largeNum = 827829281287821n
+```
+
+Reference Type (Values is stored in heap)
+- Arrays
+- Objects
+- Functions
+
+Examples:
+```js
+const numbers = [1, 2, 3, 4, 5]
+const heroes = ["flash", "superman", "supergirl", "wonderwoman"]
+const object1 = {
+    name : "hitesh",
+    age : 30,
+    isLoggedIn : true
+}
+const welcome = function() {
+    console.log("Welcome")
+}
+```
+## Operators
+- Arithmetic Operators:
+    +, -, *, /, %
+- Increment Operators:
+    ++, --
+- Assignment Operators:
+    =, +=, -= and so on
+- Comparison Operators:
+    <, >, ==, ===
