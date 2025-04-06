@@ -1,11 +1,13 @@
 # Starting with JavaScript
 
 ## Best Sources to Study
+
 - [W3Schools](https://www.w3schools.com/)
 - [MDN](https://developer.mozilla.org/en-US/)
 - [ECMAScript 2024](https://262.ecma-international.org/15.0/index.html?_gl=1*1c2eafi*_ga*MTUwOTg3MzE1Ni4xNzQzODUzMTcy*_ga_TDCK4DWEPP*MTc0Mzg1MzE3Mi4xLjEuMTc0Mzg1MzI2MC4wLjAuMA..)
 
 ## JS Introduction
+
 [Code](start_js.js)
 
 Building a project requires a lot of planning.
@@ -32,22 +34,29 @@ Consider printing on the console. We have console.log(), console.error(), consol
 Commenting in JS: Ctrl + / after selecting the part to be commented
 
 ## let and const
+
 [Code](let.js)
+
 ```js
 let userEmail = "jammy.123@gmail.com"
 ```
+
 Variables declared with let can be modified in the following lines of code.
 
 [Code](const.js)
+
 ```js
 const userId;
 ```
+
 Variables declared with const cannot be modified in the following lines of code.
 
 ## Data Types
+
 - [Code](dataTypes.js)
 
 [Primitive Types](heapAndStack.drawio)
+
 - String
 - Number
 - Boolean
@@ -57,6 +66,7 @@ Variables declared with const cannot be modified in the following lines of code.
 - BigInt
 
 Examples:
+
 ```js
 const firstName = "Jammy"
 const age = 20
@@ -69,11 +79,13 @@ const largeNum = 827829281287821n
 ```
 
 [Reference Type](./heapAndStack.drawio)
+
 - Arrays
 - Objects
 - Functions
 
 Examples:
+
 ```js
 const numbers = [1, 2, 3, 4, 5]
 const heroes = ["flash", "superman", "supergirl", "wonderwoman"]
@@ -86,8 +98,11 @@ const welcome = function() {
     console.log("Welcome")
 }
 ```
+
 ## Operators
+
 [Code](operators.js)
+
 - Arithmetic Operators:
     +, -, *, /, %
 - Increment Operators:
@@ -98,16 +113,19 @@ const welcome = function() {
     <, >, ==, ===
 - typeOf Operator
 
-
 ## Type Coercion
+
 [Code](type_conversion.js)
+
 - Implicit Coercion (done automatically by runtime)
 - Explicit Coercion (done by programmer)
 
 ## Strings
+
 [Code](playWithStrings.js)
 
 Strings are indexed collection of characters. Here are some methods that are frquently used while handling strings:
+
 - toUpperCase()
 - toLowerCase()
 - indexOf()
@@ -116,17 +134,21 @@ Strings are indexed collection of characters. Here are some methods that are frq
 - includes()
 
 ## Numbers
+
 [Code](./playWithStrings.js) 
 
 Numbers are integers and floating-point values. They are stored based on international standards. We can use Math object to use mathematical functions on numbers. Some methods worth trying are:
+
 - toString()
 - toFixed()
 - Math.random()
 
 ## Arrays
+
 [Code](arrays.js)
 
 Arrays are indexed collection of data. Here are few methods available with arrays:
+
 - push()
 - pop()
 - toSting()
@@ -135,13 +157,27 @@ Arrays are indexed collection of data. Here are few methods available with array
 - unshift()
 - join()
 
-
 ## Objects
+
 [Code](./objects.js)
 
 Objects are collection of key-value pairs. To start with objects, we can try the following:
+
 - Acessing values
 - Object.values()
 - Object.keys()
 - Object.entries()
 - hasOwnProperty()
+
+## if statement
+
+[Code](if_statement.js)
+
+We use if statement to run code conditionally. Pretty simple to understand. There a funny syntax that I've learnt. Do check it out in the code section. 
+An important part is to understand scoping of variables. We will surely learn this in upcoming classes.
+
+## switch statement
+
+[Code]()
+
+Things that can be done with if statement can also be done with switch statement. Although switch statements are considered faster than if-else.
