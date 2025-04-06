@@ -15,6 +15,7 @@ There are many functions that are already written and ready for use when needed.
 
 ## Arguments and Parameters
 [Code](./argumentsAndParameters.js)
+
 Parameters are the inputs that the function expects when a function is defined. They are like placeholders.
 Arguments are the values that we pass during the function call.
 
