@@ -1,0 +1,15 @@
+{
+    "name": "John Doe",
+    "age": 30,
+    "city": "Bengaluru",
+    "isEmployed": true,
+    "skills": [
+        "Python",
+        "Java"
+    ],
+    "address": {
+        "street": "123 Main St",
+        "city": "Bengaluru",
+        "state": "Karnataka"
+    }
+}

@@ -8,7 +8,7 @@
 
 ## JS Introduction
 
-[Code](start_js.js)
+[Code](startJS.js)
 
 Building a project requires a lot of planning.
 Let's consider registration page of a website. It takes input from the user and saves these details for further processing.
@@ -26,7 +26,7 @@ Objects are collection of key-value pairs.
 Arrays are collection of indexed values.
 
 JavaScript gets a lot of functionalities from the environment in which it runs. 
-Browsers have [Javascript run-time environment](JS_engine.drawio) that includes execution engine and rendering engine. V8 is the execution engine used by Chrome.
+Browsers have [Javascript run-time environment](JSEngine.drawio) that includes execution engine and rendering engine. V8 is the execution engine used by Chrome.
 Nodejs is another run-time environment and it also used the V8 execution engine.
 
 Consider printing on the console. We have console.log(), console.error(), console.warn() like methods in the browsers. When they are run, they display the message in different way.
@@ -53,7 +53,7 @@ Variables declared with const cannot be modified in the following lines of code.
 
 ## Data Types
 
-- [Code](dataTypes.js)
+[Code](dataTypes.js)
 
 [Primitive Types](heapAndStack.drawio)
 
@@ -115,7 +115,7 @@ const welcome = function() {
 
 ## Type Coercion
 
-[Code](type_conversion.js)
+[Code](typeConversion.js)
 
 - Implicit Coercion (done automatically by runtime)
 - Explicit Coercion (done by programmer)
@@ -171,7 +171,7 @@ Objects are collection of key-value pairs. To start with objects, we can try the
 
 ## if statement
 
-[Code](if_statement.js)
+[Code](ifStatement.js)
 
 We use if statement to run code conditionally. Pretty simple to understand. There a funny syntax that I've learnt. Do check it out in the code section. 
 An important part is to understand scoping of variables. We will surely learn this in upcoming classes.
@@ -181,3 +181,35 @@ An important part is to understand scoping of variables. We will surely learn th
 [Code]()
 
 Things that can be done with if statement can also be done with switch statement. Although switch statements are considered faster than if-else.
+
+## json
+[Code](./data.json)
+
+json (javaScript object notation) is the preferred format of sharing data between front-end and back-end.
+
+## truthy and falsy values
+[Code](./truthyAndFalsy.js)
+
+Here are the falsy values that should be remembered while working with javaScript:
+- false
+- 0, -0, 0n
+- ""
+- null
+- undefined
+- NaN
+
+## Logical Operation
+[Code](./andOr.js)
+
+&& and || are frequently used logical operators.
+
+## ? operator
+[Code](./condtionalOperator.js)
+
+Not so much used.
+
+
+## Loops
+[Code](./loops.js)
+
+Very frquently we encounter situation where we have to repeat pieces of code.
