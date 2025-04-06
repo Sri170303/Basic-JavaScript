@@ -26,6 +26,7 @@ arguments keyword gives access to special object that has array like element acc
 
 ## Date
 [Code](./date.js)
+
 How do you get the system data when needed? Check it!
 
 ## Try Yourself
