@@ -32,3 +32,56 @@ How do you get the system data when needed? Check it!
 
 ## Try Yourself
 [Code](./homeWork.js)
+
+## Function Expression
+[Code]()
+- Why do we need it?
+- And how to identify whether a written function is a function declaration or function expression?
+
+Well we are going to answer this. But before that we should know that in JS functions are considered as first class citizen.
+Well JS is heavily influenced by functional programming paradigm.
+
+Key features that should be known are: 
+- In Js we can store function anywhere.
+- can pass functions are arguments.
+- We can also return function.
+
+If the first valid word is not "function" then it is not a function. If not a function then it is a function expression.
+
+What difference does it make whether we use function declaration or function expression?
+Scoping mechanism in them are different.
+
+Types of function expression:
+- [Named function expression](./namedFunctionExpression.js)
+- [Anonymous function expression](./anonymousFunctionExpression.js)
+- IIFE (Immediately Invoked Function Expression)
+
+## Why named function expression is important?
+- Debugging 
+- Recursion
+- Code Readability
+
+## Passing Functions as Args
+[Code](./passFunctionAsArg.js)
+
+When functions are passed as arguments to another function, we can see the name of function in the call stack using trace when it is a named function expression. If it is an anonymous function expression then we cannot see it.
+
+## Function Call Stack
+[Code](./callStack.js)
+
+Files are stored in Hard Disk. They are brought to RAM for execution but actual execution happens in processor.
+System Monitor shows all processes running on the system.
+
+Stack is DS that has many application in programming. There are used in tab mantaning, process control, file manager, etc. It allows LIFO accessing of elements.
+
+The order in which the functions must be called and executed is maintained using [call-stack](./process.drawio). When a function is called, it is pushed onto the stack. When a function returns after completing the execution, it is popped from the stack. The function on the top of call stack is the currently executing one.
+
+
+## Kernel Stack
+
+Kernel Stack is used during [context switching](./contextSwitch.drawio). It is maintained by OS.
+
+## Recursion
+[Code](./recursion.js)
+
+[Recursion](./recursion.drawio) is name given to situation when a function call itself. This needs a litte care to prevent falling into condition where there is no end to function call.
