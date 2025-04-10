@@ -32,7 +32,8 @@ Syntax of IIFE is important.
 ```
 
 Can this be done by introducing block scope? **No.**
-Their will be scope conflicts and the part that we think needs to stay as blocked scope can change to global scope.
+Their will be scope conflicts and the part that we think needs to stay as blocked scope can change to global scope. 
+Here is a situation where conflicts can occur:  
 [Code](./withoutIIFE.js)
 
 We can understand this better after scoping mechanism in JS is covered.
