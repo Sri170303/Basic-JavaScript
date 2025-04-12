@@ -1,10 +1,10 @@
 # Starting with JavaScript
 
 ## Best Sources to Study
-
-- [W3Schools](https://www.w3schools.com/)
-- [MDN](https://developer.mozilla.org/en-US/)
 - [ECMAScript 2024](https://262.ecma-international.org/15.0/index.html?_gl=1*1c2eafi*_ga*MTUwOTg3MzE1Ni4xNzQzODUzMTcy*_ga_TDCK4DWEPP*MTc0Mzg1MzE3Mi4xLjEuMTc0Mzg1MzI2MC4wLjAuMA..)
+- [MDN](https://developer.mozilla.org/en-US/)
+- [W3Schools](https://www.w3schools.com/)
+
 
 ## JS Introduction
 
