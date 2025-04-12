@@ -27,7 +27,9 @@ Arrays are collection of indexed values.
 
 JavaScript gets a lot of functionalities from the environment in which it runs. 
 Browsers have [Javascript run-time environment](JSEngine.drawio) that includes execution engine and rendering engine. V8 is the execution engine used by Chrome.
+
 <img src="./Screenshot%20from%202025-04-12%2019-48-51.png" title="" alt="" data-align="center">
+
 Nodejs is another run-time environment and it also used the V8 execution engine.
 
 Consider printing on the console. We have console.log(), console.error(), console.warn() like methods in the browsers. When they are run, they display the message in different way.
