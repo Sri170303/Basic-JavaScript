@@ -58,6 +58,7 @@ Now, again there is need to find the difference between them.
 
 ## Date
 [Code](./date.js)
+
 Date() methods returns the string representing the system date
 For creating a date object we need to use new keyword. Well, almost all application need to store time of an event. Here, we use date object and methods it comes with.
 
