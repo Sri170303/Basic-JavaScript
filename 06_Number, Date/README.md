@@ -48,6 +48,7 @@ Same thing happens when we enclose a primitive value and call method toString().
 ![](./Screenshot%20from%202025-04-13%2000-24-14.png)
 
 **"Every type in JS has the capabiltiy to behave as an object"**
+
 This is called as Boxing by members of JS communities.
 
 ## Why there is -0 ?
