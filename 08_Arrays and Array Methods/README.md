@@ -90,5 +90,8 @@ Calls the specified callback function for all the elements in an array. The retu
 The Array.from() static method creates a new, shallow-copied Array instance from an iterable or array-like object.
 
 
+## Practise
+[Code](./practise.js)
 
+Let's have some fun with array methods.
 
