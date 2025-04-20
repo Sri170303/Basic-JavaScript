@@ -27,6 +27,7 @@ Apart from this there are tuples in Python which have array like element storage
 
 ## Array Methods
 [Code](./array.js)
+
 - push()
 - pop()
 - fill()
