@@ -43,10 +43,12 @@ Apart from this there are tuples in Python which have array like element storage
 
 ## forEach()
 [Code](./forEach.js)
+
 It's the most convenient method for accessing and applying a call back to each accessed element.
 
 ## map()
 [Code](./map.js)
+
 It works exactly like forEach() but instead of returning undefined, it return an array of return values for each element with callback.
 
 ## filter()
