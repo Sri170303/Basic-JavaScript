@@ -44,10 +44,12 @@ The ECMAScript language types are Undefined, Null, Boolean, String, Symbol, Numb
 But why do everyone says, "Everything in JS is an Object."?
 
 Check the below output of console in Chrome.
+
 ![](./Screenshot%20from%202025-04-13%2000-17-31.png)
 
 So, here when we assign a primitive value to a variable, it has a primitive value only. Primitive value like number do not have method like toString(). Objects have such properties. So, when we try to call method toString() with a variable having primitve value, it converts the primitive number into non-primtive number (object) and then calls the function toString() on it.
 Same thing happens when we enclose a primitive value and call method toString().
+
 ![](./Screenshot%20from%202025-04-13%2000-24-14.png)
 
 **"Every type in JS has the capabiltiy to behave as an object"**
