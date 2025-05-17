@@ -56,4 +56,8 @@ Event loop checks continuosly whether the main thread is empty or not.
 
 Event queue/ Callback queue keeps track of which run-time task will be given chance to access the main thread when all the native features are executed.
 
+## Anonymous Function Call for entire code file
+When er start execution of code from a file, the set up in vs code shows us that a anonymous function call has been made that include all the global variables and functions definitions and calls as its local entities.
+
+
 
