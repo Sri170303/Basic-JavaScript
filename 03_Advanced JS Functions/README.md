@@ -1,7 +1,7 @@
 # Advanced JS Functions
 
 ## Passing function as an arguments
-[Code](callBack.js)
+[Code](callback.js)
 
 In JS, we can pass functions as arguments. **Call Backs** are the function that we pass as argument. The function to which it is passed is called a **Higher Order Function**.
 
